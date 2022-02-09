@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* colors */
+:root{
+--blackish: rgb(38,38,38);
+}
+.orange {
+  background-color: #FA7319 !important;
+}
+.orange-t {
+  color: #FA7319 !important;
+}
+.red {
+  color: #b70d2b !important;
+}
+.blue {
+  color: #319197 !important;
+}
+.black {
+  color: #262626 !important;
+}
+.purple {
+  color: #77415d !important;
+}
+.banner {
+  min-height: 500px;
+  background-image: url("../images/codebanner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+nav{
+	background-color: var(--blackish)!important;
+}
+/* Fonts 
+font-family: 'Orbitron', sans-serif;
+font-family: 'Roboto', sans-serif; */
+.heading {
+  font-family: 'Orbitron', sans-serif !important;
+}
+body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif !important;
+  background-color: rgb(0, 0, 0)!important;
+  background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(107, 107, 107, 1) 100%)!important;
+  background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(107, 107, 107, 1) 100%)!important;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(107, 107, 107, 1) 100%)!important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#6b6b6b", GradientType=1)!important;
+}
+footer {
+  color: white !important;
+  height: auto !important;
+  width: 100% !important;
+  background-color: black;
+}
+.white-t {
+  color: white !important;
+}
+.card-img-top {
+  width: 100%!important;
+  height: 15vw!important;
+  object-fit: cover!important;
+}
+.card {
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 14px 2px rgba(0, 0, 0, 0.25)!important;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 14px 2px rgba(0, 0, 0, 0.25)!important;
+  transition-duration: 0.2s!important;
+  transition-timing-function: ease-out!important;
+}
+.card:hover {
+  transform: scale(1.03)!important;
+  transition-duration: 0.2s!important;
+  transition-timing-function: ease-in!important;
+}
+label {
+	color: white !important;
+}
+article {
+	background-color: white;
+	width: 100%;
+	height: 100%;
+}
+/* Mobile Response 
+@media screen and (max-width: 767px)  {
+	body {font-size: 120%;}
+				
+}
+@media screen and (min-width: 768px)  {
+	body {font-size: 130%;}
+				
+}
+@media screen and (min-width: 992px)  {
+	body {font-size: 140%;}
+	
+}
+@media screen and (min-width: 1200px)  {
+	body {font-size: 150%;}	
+	
+} */
+
+/* iframe */
+.iframe-container {
+	overflow: hidden;
+	padding-top: 56.25%;
+	position: relative;
+}
+.iframe-container iframe {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 10px;
+	width: 100%;
+}
+a {
+	transition-duration: 0.2s!important;
+  	transition-timing-function: ease-out!important;
+}
+a:hover {
+	transform: translateY(-3px);
+	transition-duration: 0.2s!important;
+ 	transition-timing-function: ease-in!important;
+}
